@@ -3,9 +3,9 @@ Codes for CVPR2020 paper "Towards Transferable Targeted Attack".
 
 ## checkpoints
 
-The used normally trained and adversarially trained models are available in:
-
+The used normally trained and adversarially trained models are available in
 [https://drive.google.com/drive/folders/1dHFQSCHsfClbz9h1Q_G1_wkKxJpu1yKh?usp=sharing](https://drive.google.com/drive/folders/1dHFQSCHsfClbz9h1Q_G1_wkKxJpu1yKh?usp=sharing)
+Please put them in the fold ./checkpoint
 
 ##  Cite by
 
