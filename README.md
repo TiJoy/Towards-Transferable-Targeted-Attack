@@ -8,6 +8,10 @@ The used normally trained and adversarially trained models are available in
 
 Please put them in the fold `./checkpoint`.
 
+## Guide
+
+`incep_v3_trip_po.sh`, `incep_v3_ce.sh`, and `incep_v3_po.sh` are three examples to run our attacks and the baselines. Everyone can change the python file names in these `.sh` files to attack different models.
+
 ##  Cite by
 
 ```latex
