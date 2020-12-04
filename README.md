@@ -14,7 +14,7 @@ Please put them in the fold `./checkpoint`.
 
 Set the probability of DI<sup>2</sup>-FGSM, use `--prob=0.7`, `--prob=0` means no diverse input pattern.
 
-Set TI-FGSM, uncomment the line ``noise = tf.nn.depthwise_conv2d(noise, stack_kernel, strides=[1, 1, 1, 1], padding='SAME')`` in function `graph`.
+Set TI-FGSM, uncomment the line ``noise = tf.nn.depthwise_conv2d(noise, stack_kernel, strides=[1, 1, 1, 1], padding='SAME')`` in function `graph(x, y, i, x_max, x_min, grad, y_target, y_logits)`.
 
 Set MI-FGSM, use `--prob=0` and comment out this line mentioned above.
 
