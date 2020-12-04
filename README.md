@@ -12,6 +12,10 @@ Please put them in the fold `./checkpoint`.
 
 `incep_v3_trip_po.sh`, `incep_v3_ce.sh`, and `incep_v3_po.sh` are three examples to run our attacks and the baselines. Everyone can change the python file names in these `.sh` files to attack different models.
 
+Set the probability of DI<sup>2-FGSM, use `--prob=0.7`, `--prob=0` means no diverse input pattern.
+Set TI-FGSM, uncomment the line ``noise = tf.nn.depthwise_conv2d(noise, stack_kernel, strides=[1, 1, 1, 1], padding='SAME')`` in function `graph`.
+Set MI-FGSM, use `--prob=0` and comment out this line mentioned above.
+
 ##  Cite by
 
 ```latex
